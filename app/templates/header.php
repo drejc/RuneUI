@@ -73,6 +73,7 @@
     <div class="dropdown">
         <a id="menu-settings" class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#" href="#">MENU <i class="fa fa-bars dx"></i></a>
         <ul class="dropdown-menu" role="menu" aria-labelledby="menu-settings">
+            <li><a href="#poweroff-modal" data-toggle="modal"><i class="fa fa-power-off"></i> Turn off</a></li>
             <li class="<?=$this->uri(1, '', 'active')?>"><a href="/"><i class="fa fa-play"></i> Playback</a></li>
             <li class="<?=$this->uri(1, 'sources', 'active')?>"><a href="/sources/"><i class="fa fa-folder-open"></i> Sources</a></li>
             <li class="<?=$this->uri(1, 'mpd', 'active')?>"><a href="/mpd/"><i class="fa fa-cogs"></i> MPD</a></li>
@@ -80,7 +81,6 @@
             <li class="<?=$this->uri(1, 'network', 'active')?>"><a href="/network/"><i class="fa fa-sitemap"></i> Network</a></li>
             <li class="<?=$this->uri(1, 'debug', 'active')?>"><a href="/debug/"><i class="fa fa-bug"></i> Debug</a></li>
             <li class="<?=$this->uri(1, 'credits', 'active')?>"><a href="/credits/"><i class="fa fa-trophy"></i> Credits</a></li>
-            <li><a href="#poweroff-modal" data-toggle="modal"><i class="fa fa-power-off"></i> Turn off</a></li>
         </ul>
     </div>
     <div class="playback-controls">    
