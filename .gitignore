@@ -1,3 +1,10 @@
 test/
 sync.ffs_db
 node_modules
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/php.xml
+.idea/RuneUI.iml
+.idea/vcs.xml
+.idea/workspace.xml
